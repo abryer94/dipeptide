@@ -1,0 +1,22 @@
+#!/bin/sh
+
+
+mkdir ./output
+
+let i=0
+
+while [ $i -lt $1 ]
+do
+   if [[ $i -lt 10 ]] ; then
+      index=00$i
+   elif [[ $i -lt 100 ]] ; then
+      index=0$i
+   else
+      index=$i
+   fi
+
+   echo "---> creating ./output/$index"
+   mkdir ./output/$index
+
+   let i++
+done

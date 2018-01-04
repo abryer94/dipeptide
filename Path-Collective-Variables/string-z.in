@@ -1,0 +1,143 @@
+#############################################################
+# Distance from string
+#############################################################
+
+colvar {
+   name                  z
+
+   width                 0.01
+
+   lowerboundary        -99.0
+   upperboundary         99.0
+   lowerwallconstant     0.0
+   upperwallconstant     0.0
+
+   scriptedFunction      pathCVz
+
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+     }
+     refpositionsfile    string-00.pdb
+     componentExp        1 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-01.pdb
+     componentExp        2 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-02.pdb
+     componentExp        3 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-03.pdb
+     componentExp        4 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-04.pdb
+     componentExp        5 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-05.pdb
+     componentExp        6 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-06.pdb
+     componentExp        7 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-07.pdb
+     componentExp        8 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-08.pdb
+     componentExp        9 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-09.pdb
+     componentExp       10 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-10.pdb
+     componentExp       11 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-11.pdb
+     componentExp       12 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-12.pdb
+     componentExp       13 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-13.pdb
+     componentExp       14 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-14.pdb
+     componentExp       15 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-15.pdb
+     componentExp       16 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-16.pdb
+     componentExp       17 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-17.pdb
+     componentExp       18 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-18.pdb
+     componentExp       19 }
+   rmsd {
+     atoms {
+       atomnumbers { 1 5 6 7 9 11 15 16 17 19 }
+      }
+     refpositionsfile    string-19.pdb
+     componentExp       20 }
+}
+
+harmonic {
+   colvars               z
+   centers               0.0
+   forceConstant         0.5
+}

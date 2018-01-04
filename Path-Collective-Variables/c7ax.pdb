@@ -1,0 +1,24 @@
+CRYST1    0.000    0.000    0.000  90.00  90.00  90.00 P 1           1
+ATOM      1  CAY ALA X   1     -58.130  33.369  64.616  1.00  0.00      DIAL  
+ATOM      2  HY1 ALA X   1     -57.424  32.546  64.876  1.00  0.00      DIAL  
+ATOM      3  HY2 ALA X   1     -59.135  32.989  64.893  1.00  0.00      DIAL  
+ATOM      4  HY3 ALA X   1     -57.964  34.201  65.265  1.00  0.00      DIAL  
+ATOM      5  CY  ALA X   1     -58.054  33.751  63.165  1.00  0.00      DIAL  
+ATOM      6  OY  ALA X   1     -58.798  33.273  62.348  1.00  0.00      DIAL  
+ATOM      7  N   ALA X   1     -57.051  34.573  62.834  1.00  0.00      DIAL  
+ATOM      8  HN  ALA X   1     -56.611  34.936  63.716  1.00  0.00      DIAL  
+ATOM      9  CA  ALA X   1     -56.520  35.187  61.609  1.00  0.00      DIAL  
+ATOM     10  HA  ALA X   1     -55.763  35.880  61.943  1.00  0.00      DIAL  
+ATOM     11  CB  ALA X   1     -56.058  34.124  60.584  1.00  0.00      DIAL  
+ATOM     12  HB1 ALA X   1     -56.917  33.523  60.233  1.00  0.00      DIAL  
+ATOM     13  HB2 ALA X   1     -55.667  34.623  59.713  1.00  0.00      DIAL  
+ATOM     14  HB3 ALA X   1     -55.338  33.356  61.050  1.00  0.00      DIAL  
+ATOM     15  C   ALA X   1     -57.559  36.157  60.923  1.00  0.00      DIAL  
+ATOM     16  O   ALA X   1     -57.510  37.423  60.949  1.00  0.00      DIAL  
+ATOM     17  NT  ALA X   1     -58.591  35.570  60.202  1.00  0.00      DIAL  
+ATOM     18  HNT ALA X   1     -58.743  34.606  60.345  1.00  0.00      DIAL  
+ATOM     19  CAT ALA X   1     -59.590  36.382  59.511  1.00  0.00      DIAL  
+ATOM     20  HT1 ALA X   1     -60.320  35.887  58.907  1.00  0.00      DIAL  
+ATOM     21  HT2 ALA X   1     -59.088  37.014  58.763  1.00  0.00      DIAL  
+ATOM     22  HT3 ALA X   1     -60.078  37.071  60.244  1.00  0.00      DIAL  
+END

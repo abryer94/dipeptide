@@ -1,0 +1,38 @@
+#!/bin/sh
+
+
+let Image=0
+let NbImage=$1
+let NbDirectory=`ls output | wc | awk '{print $1}'`
+
+let NbTrajectory=`echo "$NbDirectory / $NbImage" | bc`
+
+echo "---> $NbImage images"
+echo "---> $NbTrajectory trajectories per image"
+
+while [ $Image -lt $NbImage ]
+do
+   let Index=`echo "$Image * $NbTrajectory" | bc`
+   if [[ $Index -lt 10 ]] ; then
+      Index=00$Index
+   elif [[ $Index -lt 100 ]] ; then
+      Index=0$Index
+   else
+      Index=$Index
+   fi
+   
+   if [[ $Image -lt 10 ]] ; then
+      Jndex=0$Image
+   else
+      Jndex=$Image
+   fi
+   
+   echo "---> parsing output/$Index/job00.$Index.log"
+
+   awk '{if ($0 ~ /Updating bias_swarms_phi/) {getline; getline; print $0}}' output/$Index/job00.$Index.log | \
+   grep -v default | sed 's/.*{ //' |sed 's/ }//' | awk '{printf "%3d%8.2f\n", NR, $1}' > phi-$Jndex.dat
+   awk '{if ($0 ~ /Updating bias_swarms_psi/) {getline; getline; print $0}}' output/$Index/job00.$Index.log | \
+   grep -v default | sed 's/.*{ //' |sed 's/ }//' | awk '{printf "%3d%8.2f\n", NR, $1}' > psi-$Jndex.dat
+
+   let Image++
+done

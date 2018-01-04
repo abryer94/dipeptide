@@ -1,0 +1,24 @@
+REMARK  FINAL COORDINATES WRITTEN BY NAMD AT TIMESTEP 1
+ATOM      1  CAY ALA X   1      -2.198  -1.608   2.582  1.00  0.00      DIAL   
+ATOM      2  HY1 ALA X   1      -3.051  -0.999   2.970  1.00  0.00      DIAL   
+ATOM      3  HY2 ALA X   1      -1.898  -2.209   3.475  1.00  0.00      DIAL   
+ATOM      4  HY3 ALA X   1      -2.579  -2.381   1.911  1.00  0.00      DIAL   
+ATOM      5  CY  ALA X   1      -1.058  -0.794   2.086  1.00  0.00      DIAL   
+ATOM      6  OY  ALA X   1      -0.206  -0.307   2.867  1.00  0.00      DIAL   
+ATOM      7  N   ALA X   1      -0.987  -0.714   0.695  1.00  0.00      DIAL   
+ATOM      8  HN  ALA X   1      -1.660  -1.122   0.095  1.00  0.00      DIAL   
+ATOM      9  CA  ALA X   1       0.086  -0.026  -0.073  1.00  0.00      DIAL   
+ATOM     10  HA  ALA X   1      -0.029  -0.210  -1.145  1.00  0.00      DIAL   
+ATOM     11  CB  ALA X   1       0.185   1.531   0.013  1.00  0.00      DIAL   
+ATOM     12  HB1 ALA X   1       0.280   1.938   1.046  1.00  0.00      DIAL   
+ATOM     13  HB2 ALA X   1       1.112   1.928  -0.457  1.00  0.00      DIAL   
+ATOM     14  HB3 ALA X   1      -0.760   1.967  -0.393  1.00  0.00      DIAL   
+ATOM     15  C   ALA X   1       1.435  -0.589   0.329  1.00  0.00      DIAL   
+ATOM     16  O   ALA X   1       1.837  -1.578  -0.268  1.00  0.00      DIAL   
+ATOM     17  NT  ALA X   1       2.051   0.054   1.304  1.00  0.00      DIAL   
+ATOM     18  HNT ALA X   1       1.655   0.814   1.832  1.00  0.00      DIAL   
+ATOM     19  CAT ALA X   1       3.332  -0.449   1.709  1.00  0.00      DIAL   
+ATOM     20  HT1 ALA X   1       3.776   0.207   2.520  1.00  0.00      DIAL   
+ATOM     21  HT2 ALA X   1       4.017  -0.473   0.812  1.00  0.00      DIAL   
+ATOM     22  HT3 ALA X   1       3.305  -1.435   2.244  1.00  0.00      DIAL   
+END
